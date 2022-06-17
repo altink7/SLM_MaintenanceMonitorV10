@@ -10,10 +10,14 @@ import javax.ws.rs.core.Response;
 public class MonitorController {
     private static String status = "-";
 
-    @GetMapping()
+    /*@GetMapping()
     public Response getStatus(){
         Response.ResponseBuilder rb = Response.ok(status);
         return rb.header("Access-Control-Allow-Origin", "*").build();
+    }*/
+    @GetMapping()
+    public String getStatus(){
+        return status;
     }
 
     @GetMapping("{status}")
