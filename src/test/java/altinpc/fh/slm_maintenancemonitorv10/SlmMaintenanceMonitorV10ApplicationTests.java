@@ -1,4 +1,4 @@
-package com.example.slm_maintenancemonitorv10;
+package altinpc.fh.slm_maintenancemonitorv10;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

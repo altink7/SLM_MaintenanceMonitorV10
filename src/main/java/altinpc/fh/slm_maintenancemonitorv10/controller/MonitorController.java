@@ -1,5 +1,4 @@
-package com.example.slm_maintenancemonitorv10.controller;
-
+package altinpc.fh.slm_maintenancemonitorv10.controller;
 import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin

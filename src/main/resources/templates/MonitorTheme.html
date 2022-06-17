@@ -46,10 +46,8 @@
 
 
   function checkState() {
-
     fetch(`http://localhost:8080/api/monitoring`).then(response => {
       response.text().then(text => {
-
         if(text === '-') {
           nachricht.innerText = "";
           farbe.style.background = 'green';
@@ -57,7 +55,6 @@
           nachricht.innerText = text;
           farbe.style.background = 'red';
         }
-
       });
       zeitAktualisierung.innerText = 'letzte Aktualisierung: ' + (new Date()).toLocaleTimeString()
     }).catch(()=> {
