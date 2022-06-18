@@ -14,11 +14,8 @@ public class MonitorController {
 
     @GetMapping("{status}")
     public String setStatus(@PathVariable("status") String s){
-        if (s == null || s.isEmpty()){
+        if (s == null || s.isEmpty()) return status;
+         else status = s;
             return status;
-        } else{
-            status = s;
-            return status;
-        }
     }
 }
