@@ -9,13 +9,17 @@ public class MonitorController {
 
     @GetMapping()
     public String getStatus(){
-        return status;
+            return status;
     }
 
     @GetMapping("{status}")
     public String setStatus(@PathVariable("status") String s){
-        if (s == null || s.isEmpty()) return status;
-         else status = s;
+        if (s == null || s.isEmpty()){
             return status;
+        }
+         else {
+            status = s;
+            return status;
+        }
     }
 }
