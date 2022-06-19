@@ -1,8 +1,9 @@
 package ControllerTests;
 
 import altinpc.fh.slm_maintenancemonitorv10.controller.MonitorController;
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.junit.Assert;
+import org.junit.Test;
+
 
 public class ControllerTest {
 
