@@ -1,7 +1,6 @@
 package ControllerTests;
 
 import altinpc.fh.slm_maintenancemonitorv10.controller.MonitorController;
-import org.junit.jupiter.api.BeforeEach;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
